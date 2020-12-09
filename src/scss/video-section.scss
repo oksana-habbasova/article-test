@@ -1,0 +1,16 @@
+.video-section {
+  margin-top: 6rem;
+
+  &__video {
+    width: 100%;
+    height: 25rem;
+
+    @media (max-width: 992px) {
+      height: 20rem;
+    }
+
+    @media (max-width: 576px) {
+      height: 15rem;
+    }
+  }
+}

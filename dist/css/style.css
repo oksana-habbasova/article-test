@@ -1,0 +1,739 @@
+html,
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 768px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.line {
+  width: 70%;
+  height: 0.2rem;
+  margin: 2rem auto;
+  background-color: #797a85;
+  border-radius: 2px;
+}
+
+.page-header__title {
+  margin: 4rem 0;
+  padding: 0 2rem;
+  font-size: 4rem;
+  font-weight: 100;
+  text-align: center;
+  color: #3b5a9c;
+}
+
+.page-header__title-word {
+  font-size: 5rem;
+}
+
+.page-header__image-wrapper {
+  height: 45rem;
+  position: relative;
+}
+
+.page-header__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.page-header__image-text {
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-align: center;
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+  opacity: 0.6;
+}
+
+.page-header__image-side-text {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 0 50%;
+      -ms-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+}
+
+.page-header__author-area {
+  height: 2rem;
+  background-color: #21418c;
+}
+
+.page-header__author-name {
+  display: block;
+  width: 35%;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+}
+
+.section-one {
+  margin-top: 4rem;
+}
+
+.section-one__image-wrapper {
+  height: 30rem;
+  position: relative;
+}
+
+.section-one__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-one__image-text {
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 100;
+  text-align: center;
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+  opacity: 0.8;
+}
+
+.section-one__image-date {
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 100;
+  text-align: center;
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+  opacity: 0.8;
+}
+
+.section-one__text-wrapper {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-one__text-right,
+.section-one__text-left {
+  width: 48%;
+}
+
+.section-one__paragraph {
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.section-one__first-paragraph {
+  text-indent: 0;
+}
+
+.section-one__first-paragraph:first-letter {
+  font-size: 6rem;
+  line-height: 6rem;
+  color: #214183;
+  float: left;
+  margin-right: 0.5rem;
+  margin-top: -0.5rem;
+}
+
+.section-two {
+  margin-top: 4rem;
+}
+
+.section-two__image-wrapper {
+  position: relative;
+}
+
+.section-two__image {
+  background-image: url("../img/NSMV Model V12_7_6 Aft Starboard SunnyMARAD.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 48rem;
+}
+
+.section-two__image-text {
+  color: #000;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: 200;
+  text-align: center;
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+  opacity: 0.7;
+}
+
+.section-two__image-date {
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: 100;
+  text-align: center;
+  position: absolute;
+  bottom: 3rem;
+  right: 5rem;
+  opacity: 0.9;
+}
+
+.section-two__text-wrapper {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-two__text-left {
+  width: 70%;
+}
+
+.section-two__side-info {
+  width: 25%;
+}
+
+.section-two__adv {
+  width: 100%;
+  margin: 0.8rem 0;
+}
+
+.section-two__paragraph {
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.quote-section {
+  margin-top: 4rem;
+}
+
+.quote-section__quote-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2rem;
+  background-color: #d0d3ec;
+}
+
+.quote-section__photo-wrapper {
+  height: 18rem;
+  position: relative;
+}
+
+.quote-section__photo {
+  width: 18rem;
+  height: 18rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -2rem;
+     object-position: 0 -2rem;
+}
+
+.quote-section__photo-text {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  left: -0.8rem;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 0 50%;
+      -ms-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+  opacity: 0.8;
+}
+
+.quote-section__quote {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  font-style: italic;
+  padding: 0 4.5rem;
+  opacity: 0.6;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.quote-section__author-area {
+  height: 2rem;
+  padding-left: 2rem;
+  background-color: #21418c;
+}
+
+.quote-section__author-name {
+  display: block;
+  width: 15rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+}
+
+.video-section {
+  margin-top: 6rem;
+}
+
+.video-section__video {
+  width: 100%;
+  height: 25rem;
+}
+
+.bottom-section {
+  margin-top: 6rem;
+  padding: 4rem 0;
+  background-image: url("../img/NSMV Model V12_7_6 Aft Starboard SunnyMARAD.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bottom-section__title {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.bottom-section__text-wrapper {
+  width: 70%;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #fff;
+}
+
+.bottom-section__paragraph {
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.footer-section {
+  margin-top: 6rem;
+}
+
+.footer-section__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 2rem;
+  background-color: #aeb2d7;
+}
+
+.footer-section__title {
+  width: 50%;
+  font-size: 2.5rem;
+  font-weight: 100;
+  padding: 2rem 0;
+  text-align: center;
+  color: #fff;
+  background-color: #314894;
+}
+
+.footer-section__title-main-words {
+  font-size: 3rem;
+}
+
+.footer-section__author-area {
+  height: 2rem;
+  padding-right: 5rem;
+  text-align: right;
+  margin: 0;
+  background-color: #314894;
+}
+
+.footer-section__author-name {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #fff;
+}
+
+.footer-section__photo-wrapper {
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+}
+
+.footer-section__photo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer-section__photo-text {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #000;
+  position: absolute;
+  bottom: -0.5rem;
+  right: -7rem;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 0 50%;
+      -ms-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+  opacity: 0.8;
+}
+
+.footer-section__bottom {
+  background-image: -webkit-gradient(linear, left top, right top, from(#aeb2d7), color-stop(45%, #aeb2d7), color-stop(70%, transparent)), url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
+  background-image: -o-linear-gradient(left, #aeb2d7 0%, #aeb2d7 45%, transparent 70%), url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
+  background-image: linear-gradient(to right, #aeb2d7 0%, #aeb2d7 45%, transparent 70%), url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  padding: 0 2rem;
+  z-index: 5;
+}
+
+.footer-section__text {
+  width: 50%;
+  padding: 2rem 0;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.footer-section__image {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  z-index: -5;
+}
+
+.footer-section__image-text {
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-align: center;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  opacity: 0.7;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 510px;
+    padding: 0 2rem;
+  }
+
+  .page-header__title {
+    font-size: 3.2rem;
+  }
+
+  .page-header__title-word {
+    font-size: 4rem;
+  }
+
+  .page-header__image-wrapper {
+    height: 32rem;
+  }
+
+  .page-header__image {
+    -o-object-position: top;
+       object-position: top;
+  }
+
+  .page-header__image-text {
+    right: 1rem;
+    top: 0;
+  }
+
+  .section-one__image-wrapper {
+    height: 20rem;
+  }
+
+  .section-one__image-text {
+    right: 1rem;
+    top: 0;
+  }
+
+  .section-one__image-date {
+    bottom: 0;
+  }
+
+  .section-one__text-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .section-one__text-right,
+  .section-one__text-left {
+    width: 100%;
+  }
+
+  .section-two__image {
+    height: 36rem;
+  }
+
+  .section-two__image-text {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    left: 1rem;
+    top: 0;
+  }
+
+  .section-two__image-text {
+    font-size: 1rem;
+  }
+
+  .section-two__image-date {
+    font-size: 1rem;
+    bottom: 0;
+    right: 1rem;
+  }
+
+  .section-two__text-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .section-two__text-left {
+    width: 100%;
+  }
+
+  .section-two__side-info {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .section-two__adv {
+    width: 32%;
+  }
+
+  .quote-section {
+    width: 22rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .quote-section__quote-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 1rem;
+    padding-left: 0;
+  }
+
+  .quote-section__quote {
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  .quote-section__author-name {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .video-section__video {
+    height: 20rem;
+  }
+
+  .bottom-section__text-wrapper {
+    width: 90%;
+  }
+
+  .footer-section__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .footer-section__title {
+    width: 100%;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+
+  .footer-section__photo-wrapper {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+
+  .footer-section__bottom {
+    padding-bottom: 30rem;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#aeb2d7), color-stop(45%, #aeb2d7), color-stop(70%, transparent)), url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
+    background-image: -o-linear-gradient(top, #aeb2d7 0%, #aeb2d7 45%, transparent 70%), url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
+    background-image: linear-gradient(to bottom, #aeb2d7 0%, #aeb2d7 45%, transparent 70%), url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
+    background-position: bottom;
+  }
+
+  .footer-section__text {
+    width: 510px;
+    margin: auto;
+  }
+
+  .footer-section__image-text {
+    top: auto;
+    bottom: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: calc(100% - 4rem);
+    padding: 0 2rem;
+  }
+
+  .page-header__title {
+    font-size: 2.5rem;
+    margin: 3rem 0;
+  }
+
+  .page-header__title-word {
+    font-size: 3rem;
+  }
+
+  .page-header__image-wrapper {
+    height: 20rem;
+  }
+
+  .page-header__image-text {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .page-header__author-name {
+    width: 100%;
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+  .section-one__image-text {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  .section-two__image {
+    height: 22rem;
+    background-attachment: initial;
+  }
+
+  .section-two__side-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .section-two__adv {
+    width: 12rem;
+  }
+
+  .quote-section {
+    width: 18rem;
+  }
+
+  .quote-section__photo-wrapper {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .quote-section__photo {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .quote-section__quote {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .video-section__video {
+    height: 15rem;
+  }
+
+  .bottom-section__title {
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
+
+  .bottom-section__text-wrapper {
+    width: 80%;
+  }
+
+  .footer-section__title {
+    font-size: 1.5rem;
+  }
+
+  .footer-section__title-main-words {
+    font-size: 2rem;
+  }
+
+  .footer-section__author-area {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .footer-section__photo-wrapper {
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .footer-section__bottom {
+    padding-bottom: 15rem;
+  }
+
+  .footer-section__text {
+    width: calc(100% - 4rem);
+    padding: 0 2rem;
+  }
+}
