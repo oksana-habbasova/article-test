@@ -20,16 +20,18 @@ body {
 }
 
 .page-header__title {
+  font-family: 'Catamaran', sans-serif;
   margin: 4rem 0;
   padding: 0 2rem;
-  font-size: 4rem;
-  font-weight: 100;
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: 400;
   text-align: center;
   color: #3b5a9c;
 }
 
 .page-header__title-word {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .page-header__image-wrapper {
@@ -45,14 +47,17 @@ body {
 }
 
 .page-header__image-text {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 1.5px;
+  font-weight: 400;
   color: #000;
-  letter-spacing: 1px;
-  font-weight: 100;
   text-align: center;
   position: absolute;
   top: 1rem;
   right: 3rem;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .page-header__image-side-text {
@@ -78,9 +83,12 @@ body {
 .page-header__author-name {
   display: block;
   width: 22rem;
-  font-size: 1.2rem;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.4rem;
   line-height: 2rem;
-  font-weight: 100;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-style: italic;
   text-align: center;
   color: #fff;
 }
@@ -102,9 +110,12 @@ body {
 }
 
 .section-one__image-text {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 1.5px;
+  font-weight: 200;
   color: #fff;
-  letter-spacing: 2px;
-  font-weight: 100;
   text-align: center;
   position: absolute;
   top: 1rem;
@@ -113,13 +124,15 @@ body {
 }
 
 .section-one__image-date {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 1.5px;
+  font-weight: 300;
   color: #fff;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  font-weight: 100;
   text-align: center;
   position: absolute;
-  bottom: 2rem;
+  bottom: 1rem;
   right: 3rem;
   opacity: 0.8;
 }
@@ -176,27 +189,31 @@ body {
 }
 
 .section-two__image-text {
+  font-family: 'Catamaran', sans-serif;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 2rem;
   letter-spacing: 2px;
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
   position: absolute;
   top: 1rem;
   left: 3rem;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .section-two__image-date {
-  color: #fff;
-  font-size: 1.2rem;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 400;
+  color: #fff;
   text-align: center;
   position: absolute;
-  bottom: 3rem;
+  bottom: 2rem;
   right: 5rem;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .section-two__text-wrapper {
@@ -270,12 +287,13 @@ body {
 }
 
 .quote-section__quote {
-  font-size: 1.5rem;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.7rem;
   line-height: 2rem;
   text-align: center;
   font-style: italic;
   padding: 0 4.5rem;
-  opacity: 0.6;
+  opacity: 0.7;
   -ms-flex-item-align: center;
       align-self: center;
 }
@@ -288,13 +306,16 @@ body {
 
 .quote-section__author-name {
   display: block;
-  width: 15rem;
+  width: 18rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1.2rem;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.4rem;
   line-height: 2rem;
-  font-weight: 100;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-style: italic;
   text-align: center;
   color: #fff;
 }
@@ -304,8 +325,12 @@ body {
 }
 
 .video-section__title {
-  font-size: 3rem;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 3.8rem;
+  line-height: 4.2rem;
+  font-weight: 300;
   text-align: center;
+  margin-bottom: 2rem;
   color: #314894;
 }
 
@@ -317,21 +342,12 @@ body {
 
 .bottom-section {
   margin-top: 6rem;
-  padding: 4rem 0;
+  padding: 1rem 0;
   background-image: url("../img/NSMV Model V12_7_6 Aft Starboard SunnyMARAD.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-}
-
-.bottom-section__title {
-  color: #000;
-  font-size: 2rem;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-align: center;
-  opacity: 0.8;
 }
 
 .bottom-section__text-wrapper {
@@ -363,8 +379,11 @@ body {
 
 .footer-section__title {
   width: 50%;
-  font-size: 2.5rem;
-  font-weight: 100;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 2.8rem;
+  line-height: 3rem;
+  font-weight: 200;
+  letter-spacing: 1px;
   padding: 2rem 0;
   text-align: center;
   color: #fff;
@@ -372,7 +391,9 @@ body {
 }
 
 .footer-section__title-main-words {
-  font-size: 3rem;
+  font-size: 3.2rem;
+  letter-spacing: 3.4rem;
+  letter-spacing: 1px;
 }
 
 .footer-section__author-area {
@@ -384,8 +405,12 @@ body {
 }
 
 .footer-section__author-name {
-  font-size: 1.2rem;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.4rem;
   line-height: 2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-style: italic;
   color: #fff;
 }
 
@@ -446,28 +471,32 @@ body {
 }
 
 .footer-section__image-text {
-  color: #000;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   letter-spacing: 1px;
-  font-weight: 100;
+  font-weight: 400;
+  color: #000;
   text-align: center;
   position: absolute;
   top: 2rem;
   right: 2rem;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media (max-width: 992px) {
   .container {
     width: 510px;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
 
   .page-header__title {
-    font-size: 3.2rem;
+    font-size: 4rem;
+    line-height: 5rem;
   }
 
   .page-header__title-word {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .page-header__image-wrapper {
@@ -511,21 +540,18 @@ body {
 
   .section-two__image {
     height: 36rem;
+    background-attachment: initial;
   }
 
   .section-two__image-text {
-    font-size: 1.2rem;
-    letter-spacing: 1px;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    top: 0.5rem;
     left: 1rem;
-    top: 0;
-  }
-
-  .section-two__image-text {
-    font-size: 1rem;
   }
 
   .section-two__image-date {
-    font-size: 1rem;
+    font-size: 1.2rem;
     bottom: 0;
     right: 1rem;
   }
@@ -578,18 +604,24 @@ body {
 
   .quote-section__quote {
     width: 80%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.6rem;
     padding: 0;
   }
 
+  .quote-section__author-area {
+    padding-left: 0;
+  }
+
   .quote-section__author-name {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .video-section__title {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    margin-bottom: 0.5rem;
   }
 
   .video-section__video {
@@ -645,16 +677,16 @@ body {
 @media (max-width: 576px) {
   .container {
     width: calc(100% - 4rem);
-    padding: 0 2rem;
   }
 
   .page-header__title {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    line-height: 4rem;
     margin: 3rem 0;
   }
 
   .page-header__title-word {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .page-header__image-wrapper {
@@ -662,7 +694,7 @@ body {
   }
 
   .page-header__image-text {
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1rem;
   }
 
@@ -671,13 +703,19 @@ body {
   }
 
   .section-one__image-text {
-    font-size: 0.8rem;
-    line-height: 1rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
 
   .section-two__image {
     height: 22rem;
-    background-attachment: initial;
+  }
+
+  .section-two__image-text {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    top: 0;
+    left: 0.2rem;
   }
 
   .section-two__side-info {
@@ -707,20 +745,17 @@ body {
 
   .quote-section__quote {
     width: 90%;
+    font-size: 1.2rem;
     text-align: justify;
   }
 
   .video-section__title {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
   }
 
   .video-section__video {
     height: 15rem;
-  }
-
-  .bottom-section__title {
-    font-size: 1.5rem;
-    letter-spacing: 1.5px;
   }
 
   .bottom-section__text-wrapper {
@@ -728,11 +763,13 @@ body {
   }
 
   .footer-section__title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
   }
 
   .footer-section__title-main-words {
-    font-size: 2rem;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
   }
 
   .footer-section__photo-wrapper {
@@ -746,5 +783,10 @@ body {
 
   .footer-section__text {
     width: calc(100% - 1rem);
+  }
+
+  .footer-section__image-text {
+    font-size: 1rem;
+    line-height: 1rem;
   }
 }

@@ -1,32 +1,36 @@
 .page-header {
 
   &__title {
+    font-family: 'Catamaran', sans-serif;
     margin: 4rem 0;
     padding: 0 2rem;
-    font-size: 4rem;
-    font-weight: 100;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 400;
     text-align: center;
     color: #3b5a9c;
 
     @media (max-width: 992px) {
-      font-size: 3.2rem;
+      font-size: 4rem;
+      line-height: 5rem;
     }
 
     @media (max-width: 576px) {
-      font-size: 2.5rem;
+      font-size: 3rem;
+      line-height: 4rem;
       margin: 3rem 0;
     }
   }
 
   &__title-word {
-    font-size: 5rem;
+    font-size: 6rem;
 
     @media (max-width: 992px) {
-      font-size: 4rem;
+      font-size: 5rem;
     }
 
     @media (max-width: 576px) {
-      font-size: 3rem;
+      font-size: 4rem;
     }
   }
 
@@ -54,14 +58,17 @@
   }
 
   &__image-text {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 1.5px;
+    font-weight: 400;
     color: #000;
-    letter-spacing: 1px;
-    font-weight: 100;
     text-align: center;
     position: absolute;
     top: 1rem;
     right: 3rem;
-    opacity: 0.6;
+    opacity: 0.8;
 
     @media (max-width: 992px) {
       right: 1rem;
@@ -69,7 +76,7 @@
     }
 
     @media (max-width: 576px) {
-      font-size: 0.8rem;
+      font-size: 1rem;
       line-height: 1rem;
     }
   }
@@ -93,9 +100,12 @@
   &__author-name {
     display: block;
     width: 22rem;
-    font-size: 1.2rem;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.4rem;
     line-height: 2rem;
-    font-weight: 100;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: italic;
     text-align: center;
     color: #fff;
 

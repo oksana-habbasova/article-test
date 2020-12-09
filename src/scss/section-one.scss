@@ -17,9 +17,12 @@
   }
 
   &__image-text {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 1.5px;
+    font-weight: 200;
     color: #fff;
-    letter-spacing: 2px;
-    font-weight: 100;
     text-align: center;
     position: absolute;
     top: 1rem;
@@ -32,19 +35,21 @@
     }
 
     @media (max-width: 576px) {
-      font-size: 0.8rem;
-      line-height: 1rem;
+      font-size: 1rem;
+      line-height: 1.2rem;
     }
   }
 
   &__image-date {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 1.5px;
+    font-weight: 300;
     color: #fff;
-    font-size: 1rem;
-    letter-spacing: 2px;
-    font-weight: 100;
     text-align: center;
     position: absolute;
-    bottom: 2rem;
+    bottom: 1rem;
     right: 3rem;
     opacity: 0.8;
 

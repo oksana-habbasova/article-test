@@ -2,16 +2,23 @@
   margin-top: 6rem;
 
   &__title {
-    font-size: 3rem;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.8rem;
+    line-height: 4.2rem;
+    font-weight: 300;
     text-align: center;
+    margin-bottom: 2rem;
     color: #314894;
 
     @media (max-width: 992px) {
-     font-size: 2.5rem;
+      font-size: 2.8rem;
+      line-height: 3.2rem;
+      margin-bottom: 0.5rem;
     }
 
     @media (max-width: 576px) {
-      font-size: 1.5rem;
+      font-size: 2.4rem;
+      line-height: 2.6rem;
     }
   }
 

@@ -59,23 +59,25 @@
   }
 
   &__quote {
-    font-size: 1.5rem;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.7rem;
     line-height: 2rem;
     text-align: center;
     font-style: italic;
     padding: 0 4.5rem;
-    opacity: 0.6;
+    opacity: 0.7;
     align-self: center;
 
     @media (max-width: 992px) {
       width: 80%;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       line-height: 1.6rem;
       padding: 0;
     }
 
     @media (max-width: 576px) {
       width: 90%;
+      font-size: 1.2rem;
       text-align: justify;
     }
   }
@@ -84,21 +86,28 @@
     height: 2rem;
     padding-left: 2rem;
     background-color: #21418c;
+
+    @media (max-width: 992px) {
+      padding-left: 0;
+    }
   }
 
   &__author-name {
     display: block;
-    width: 15rem;
+    width: 18rem;
     align-items: center;
-    font-size: 1.2rem;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.4rem;
     line-height: 2rem;
-    font-weight: 100;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: italic;
     text-align: center;
     color: #fff;
 
     @media (max-width: 992px) {
       width: 100%;
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   }
 } 
