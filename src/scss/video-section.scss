@@ -1,9 +1,24 @@
 .video-section {
   margin-top: 6rem;
 
+  &__title {
+    font-size: 3rem;
+    text-align: center;
+    color: #314894;
+
+    @media (max-width: 992px) {
+     font-size: 2.5rem;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 1.5rem;
+    }
+  }
+
   &__video {
     width: 100%;
     height: 25rem;
+    margin: 2rem 0;
 
     @media (max-width: 992px) {
       height: 20rem;

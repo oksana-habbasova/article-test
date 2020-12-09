@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 2rem;
-    background-color: #aeb2d7;
+    background-color: #bdc1df;
 
     @media (max-width: 992px) {
       flex-direction: column;
@@ -46,7 +46,7 @@
     margin: 0;
     background-color: #314894;
 
-    @media (max-width: 576px) {
+    @media (max-width: 992px) {
       text-align: center;
       padding-right: 0;
     }
@@ -64,11 +64,10 @@
     height: 18rem;
 
     @media (max-width: 992px) {
-      align-self: flex-end;
+      align-self: center;
     }
 
-    @media (max-width: 576px) {
-      align-self: center;
+    @media (max-width: 576px) {  
       width: 14rem;
       height: 14rem;
     }
@@ -97,7 +96,7 @@
       url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
     position: relative;
     padding: 0 2rem;
     z-index: 5;
@@ -126,8 +125,7 @@
     }
 
     @media (max-width: 576px) {
-      width: calc(100% - 4rem);
-      padding: 0 2rem;
+      width: calc(100% - 1rem);
     }
   }
 
@@ -151,7 +149,7 @@
 
     @media (max-width: 992px) {
       top: auto;
-      bottom: 2rem;
+      bottom: 1rem;
     }
   }
 }

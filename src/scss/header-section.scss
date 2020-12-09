@@ -92,7 +92,7 @@
 
   &__author-name {
     display: block;
-    width: 35%;
+    width: 22rem;
     font-size: 1.2rem;
     line-height: 2rem;
     font-weight: 100;
@@ -100,9 +100,7 @@
     color: #fff;
 
     @media (max-width: 576px) {
-      width: 100%;
-      text-align: left;
-      margin-left: 1rem;
+      width: 16rem;
     }
   }
 }
